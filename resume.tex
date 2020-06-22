@@ -1,0 +1,207 @@
+\documentclass[]{resume}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Yizhe}{Liu}{ 
+\href{mailto:yizow@berkeley.edu}{yizow@berkeley.edu} | (408) 596-6861 |
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cvsection{Links}
+
+Github: \href{https://github.com/yizow}{\bf github.com/yizow} \\
+LinkedIn:  \href{https://www.linkedin.com/in/yizhe-liu/}{\bf linkedin.com/in/yizhe-liu} \\
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cvsection{Skills}
+
+\descript{Languages}
+\location{> 5000 lines}
+C/C++ \textbullet{} Python \\
+\location{> 1000 lines}
+Unix Systems/Shell script \textbullet{} Java \textbullet{} Scala \textbullet{} Matlab \\
+\location{> 100 lines}
+SQL \textbullet{} Javascript/Node \textbullet{} Ruby \\
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cvsection{Education}
+
+\subsection{University of California, Berkeley}
+\descript{Electrial Engineering and Computer Science}
+\location{2013-2017}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Work Experience}
+
+\runsubsection{Tarana Wireless}
+\descript{| Software / Systems Engineer, Intern}
+\location{June 2017 - Sept 2017}
+\vspace{\topsep} 
+\begin{tightemize}
+\item Implemented Linux kernel bootloader failsafe to safeguard bricking the device during upgrade
+\item Overhauled Bash scripts to streamline development and deployment
+\item Designed encryption system for flash storage that still allows for firmware upgrades
+\item Configured GPS chip register settings for graceful failover from intermittent signal
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Cisco Meraki}
+\descript{| Software / Firmware Engineer, Intern}
+\location{June 2016 – Aug 2016}
+\begin{tightemize}
+\item Implemented Bluetooth Beaconing functionality in an embedded environment
+\item Extended inhouse SQL-based database to accomodate new data, and extended backend Scala infrastructure
+\item Created new web portals in Ruby to configure Bluetooth settings
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Samsung Research America}
+\descript{| Software Engineer, Intern}
+\location{May 2014 – Aug 2014}
+\begin{tightemize}
+\item Applied K-means cluestering to learn mobile users' "significant locations"
+\item Implemented Hidden Markov model to predict their future locations and trigger custom behaviour
+\end{tightemize}
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Independent Projects
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{INDEPENDENT PROJECTS}
+
+\runsubsection{Robot Runtime}
+\descript{| Pioneers in Engineering}
+\location{\href{https://pioneers.berkeley.edu}{pioneers.berkeley.edu}}
+\begin{tightemize}
+\item Architected core Robot Runtime system used for high school level robotics competitions
+\item Used by hundreds of high school students, developed by dozens of college students
+\item Multi-processed system architecture coordinated all robot functions: safe execution of arbitrary student code; driver station communication; autonomous and teleoperated robot control; sensor input; motor actuation; software updates
+\item Led team of a dozen peers to fully flesh out features and deliver polished product.
+\item Designed communication protocol between Beaglebone Black and various embedded devices
+\item Allowed auto-enumeration of hot-plugged sensors
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Personal Webserver}
+\descript{| WebPi}
+\location{\href{https://github.com/yizow/WebPi}{github.com/yizow/WebPi}}
+\begin{tightemize}
+\item Hosted on a Raspberry Pi with auto-DNS, using nginx to reverse-proxy and Node.js to serve pages
+\item Scripted automatic deployment: listens for github webhooks; then pulls and redeploys
+\item Converts posts written in pure Markdown into proper HTML page.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Automatic Desktop Background Changer}
+\location{\href{https://github.com/yizow/changeWallpaper}{github.com/yizow/changeWallpaper}}
+\begin{tightemize}
+\item Bash script periodically pulls random image from subreddit and updates desktop wallpaper
+\item Self-installs via cron job
+\end{tightemize}
+\sectionsep
+
+
+\end{minipage} 
+
+
+\newpage
+\namesection{Yizhe}{Liu}{ 
+\href{mailto:yizow@berkeley.edu}{yizow@berkeley.edu} | (408) 596-6861 |
+}
+
+\begin{minipage}[t]{0.33\textwidth} 
+\section{}
+\sectionsep
+\end{minipage} 
+\begin{minipage}[t]{0.66\textwidth} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{RESEARCH EXPERIENCE}
+
+\runsubsection{UC Berkeley, BEST Lab}
+\descript{| Tensegrity Robot Research Assistant}
+\location{Sept 2017 –  Dec 2017}
+\hfill
+\begin{tightemize}
+\item Optimized RF usage of XBEE Radio modules for smoother robot control
+\item Implemented new messaging scheme to reduce network congestion, improve latency, and share bandwidth
+\item Refactored codebase to allow more modular control schemes
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Texas A\&M, Mechatronics Department}
+\descript{| Research Asssitant}
+\location{June 2015 - Aug 2015}
+\begin{tightemize}
+\item Modified 3D printer controller firmware to incorporate sensor feedback for faster print times and higher accuracy
+\item Utilized motor encoders and computer vision to track print nozzle position and correct deviations in printing
+\end{tightemize}
+\sectionsep
+
+\runsubsection{UC Berkeley, Biomimetics Lab}
+\descript{| Robot Synthesis Research Assistant}
+\location{June 2014 - Dec 2014}
+\begin{tightemize}
+\item Simulated the path of 4-bar linkages to populate a database of path shapes
+\item Matched an arbitrary desired path with synthesized 4-bar linkage parameters
+\end{tightemize}
+\sectionsep
+
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}

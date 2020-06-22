@@ -1,0 +1,8 @@
+*.swp
+*.log
+*.out
+*.pdf
+*.lua
+*.aux
+*.bcf
+*.xml
